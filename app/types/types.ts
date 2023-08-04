@@ -9,7 +9,7 @@ export enum SelectedPage{
 export interface ClassType{
   id:number;
   name: string;
-  category: string; // Add this line
+  category?: string; // Add this line
   price: number;
   image: string;
   shortDescription: string;
