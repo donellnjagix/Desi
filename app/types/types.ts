@@ -64,7 +64,7 @@ export type Attribute = {
   export type DesignType = {
     id: number;
     name: string;
-    category: string;
+    category?: string;
     price: number;
     image: any; // Consider using a more specific type here
     shortDescription: string;
